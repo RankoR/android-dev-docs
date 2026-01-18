@@ -34,7 +34,7 @@ If you don't want to use context7 MCP, don't forget to remove it from the `AGENT
 
 ### ADB
 
-*TODO*
+If your agent supports Android device control, ensure it has permission to use `adb` commands for logcat monitoring and UI verification.
 
 ## Architectures
 
@@ -52,7 +52,13 @@ Planned support for cross-platform development using Compose Multiplatform.
 
 ## Misc
 
-Please note that docs are incomplete. For example, there are still no docs related to testing.
+Please note that docs are incomplete.
+
+What is missing:
+
+- Compose Multiplatform docs
+- Testing docs
+- Instructions on how to use ADB MCP
 
 Feel free to open a pull request!
 
