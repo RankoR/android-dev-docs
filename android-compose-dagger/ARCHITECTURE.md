@@ -224,6 +224,8 @@ Business logic should be kept in the Domain layer.
 UI layer must never directly use the data layer entities (except for the models). Even if we need just to get some data
 from repository without any changes, create a "proxy" function in the interactor.
 
+See the [Screens](SCREENS.md) doc for more information about the UI layer.
+
 ## Layers dependencies
 
 - UI layer depends on the Domain layer
