@@ -63,7 +63,7 @@ class SomeRepositoryImpl : SomeRepository {
     }
     
     private companion object {
-        private const val LOG_TAG = "SomeRepositoryImpl"
+        private const val LOG_TAG = "SomeRepository"
     }
 }
 ```
