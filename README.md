@@ -44,6 +44,13 @@ My standard architecture for native Android applications using Jetpack Compose a
 
 [Read the documentation](./android-compose-dagger/DEVELOPMENT.md)
 
+**A note on Modularization:**
+Currently, these docs do not cover multi-module setups as the primary focus is on **rototype development**.
+
+However, the architecture—including strict package structure, class visibility controls, and extensive use of `internal` modifiers—is designed to be **"module-ready"**. This allows for a fast monolithic start while ensuring a smooth transition to a multi-modular system as the project scales.
+
+I hope that in the future this documentation will be producton-ready - your contributions are welcome!
+
 ### Compose Multiplatform
 
 Planned support for cross-platform development using Compose Multiplatform.
