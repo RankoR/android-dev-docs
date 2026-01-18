@@ -34,7 +34,7 @@ If you don't want to use context7 MCP, don't forget to remove it from the `AGENT
 
 ### ADB
 
-If your agent supports Android device control, ensure it has permission to use `adb` commands for logcat monitoring and UI verification.
+*TODO*: Add ADB MCP information.
 
 ## Architectures
 
