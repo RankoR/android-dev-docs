@@ -56,6 +56,7 @@ Please note that docs are incomplete.
 
 What is missing:
 
+- Multi-modular projects docs (currently the docs are mostly targeting MVPs where multi-module arch is redundant)
 - Compose Multiplatform docs
 - Testing docs
 - Instructions on how to use ADB MCP
