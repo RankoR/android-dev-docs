@@ -38,5 +38,13 @@ If ADB tools are available, use them to:
 2. Monitor `logcat` for crashes or logs using the project's tagging convention (`LOG_TAG`).
 3. Take screenshots if UI verification is required.
 
+## 6. Miscellaneous
+
+If you see the comments in the docs – DO NOT copy the comments!
+
+## 7. UI validation
+
+If working with UI tasks, always validate the UI using the `docs/SCREENSHOTS-TESTS.md` guidelines.
+
 ---
 *Reference `docs/DEVELOPMENT.md` via `context7` for specific information*
