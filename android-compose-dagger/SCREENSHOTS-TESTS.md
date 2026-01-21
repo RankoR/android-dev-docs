@@ -48,7 +48,7 @@ You should use `${ScreenName}ScreenContent` function there, e.g. `BookShelfScree
 
 Then, call `./gradlew recordPaparazziDebug` to record a snapshot of the screen.
 
-After that, read the `${ProjectRoot}/app/src/test/snapshots/images/${TestPackageName}_${TestFileName}_${TestName}`, e.g.
+After that, read the `${ProjectRoot}/app/src/test/snapshots/images/${TestPackageName}_${TestFileName}_${TestName}.png`, e.g.
 `${ProjectRoot}/app/src/test/snapshots/images/pro.labster.bookreader.ui.book.shelf_BookShelfPaparazziTest_bookShelfScreenContent.png`.
 
 If you were provided with a reference design image, compare them (always compare only the elements that are related to
